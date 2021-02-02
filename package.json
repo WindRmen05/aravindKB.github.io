@@ -1,0 +1,20 @@
+{
+  "name": "project-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css",
+    "main": "node-sass --include-path scss scss/main.scss css/main.css --watch",
+    "info": "node-sass --include-path scss scss/info.scss css/info.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.5.1",
+    "locomotive-scroll": "^4.0.6",
+    "node-sass": "^5.0.0",
+    "sass": "^1.27.1",
+    "smooth-scrollbar": "^8.5.3"
+  }
+}
