@@ -319,7 +319,8 @@ img {
   font-size: .5em;
   position: fixed;
   top: 2vh;
-  right: 2vw; }
+  right: 2vw;
+  gap: 1em; }
   .navigation li {
     text-transform: uppercase;
     letter-spacing: 5px; }
@@ -333,8 +334,7 @@ img {
         color: var(--grey-color); }
     @media (max-width: 320px) {
       .navigation li {
-        letter-spacing: 3px;
-        margin-bottom: .1px; } }
+        letter-spacing: 3px; } }
   @media (max-width: 320px) {
     .navigation {
       flex-direction: column;

@@ -369,21 +369,6 @@ img {
 	// border-radius: 50%;
 }
 
-// #fill {
-// 	width: 30px;
-// 	height: 30px;
-// 	background: var(--white-color);
-// 	border: 1px solid grey;
-// 	border-radius: 50%;
-// 	position: absolute;
-// 	top: 50%;
-// 	left: 50%;
-// 	margin: -10px 0 0 -10px;
-// 	pointer-events: none;
-// 	// filter: opacity(50%);
-// }
-
-//mouse follow///////////////////////////////
 .wrap {
 	width: 0;
 	height:0;
@@ -395,21 +380,6 @@ img {
 	right: 0;
 	// overflow: hidden;
 }
-
-// #ball {
-// 	width: 30px;
-// 	height: 30px;
-// 	background: var(--white-color);
-// 	border: 1px solid grey;
-// 	border-radius: 50%;
-// 	position: absolute;
-// 	top: 50%;
-// 	left: 50%;
-// 	margin: -10px 0 0 -10px;
-// 	pointer-events: none;
-// 	// filter: opacity(50%);
-// }
-//////////////////////////////////////////////
 
 .logo{
 	margin-left:-30px;
@@ -469,7 +439,6 @@ img {
 }
 
 .navigation {
-	// visibility: hidden;
 	display: flex;
 	align-items: end;
 	z-index: 10;
@@ -477,7 +446,7 @@ img {
 	position: fixed;
 	top: 2vh;
 	right: 2vw;
-	// gap: 1em;
+	gap: 1em;
 
 	& li {
 		text-transform: uppercase;
@@ -499,7 +468,6 @@ img {
 
 		@include media('<=phone') {
 			letter-spacing: 3px;
-			margin-bottom: .1px;
 		}
 		
 	}

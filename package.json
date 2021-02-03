@@ -5,8 +5,7 @@
   "main": "javascript.js",
   "scripts": {
     "scss": "node-sass --watch scss -o css",
-    "main": "node-sass --include-path scss scss/main.scss css/main.css --watch",
-    "info": "node-sass --include-path scss scss/info.scss css/info.css --watch"
+    "main": "node-sass --include-path scss scss/main.scss css/main.css --watch"
   },
   "author": "",
   "license": "ISC",
