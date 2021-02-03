@@ -151,7 +151,7 @@ img {
 		}
 		
 		@include media('>=phone','<=510px') {
-			-webkit-text-stroke-width: 2px;
+			-webkit-text-stroke-width: 1px;
 			-webkit-text-stroke-color: var(--white-color);
 			-webkit-text-fill-color: transparent;
 		}
