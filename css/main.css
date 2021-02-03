@@ -108,13 +108,13 @@ img {
   @media (max-width: 320px) {
     .highlite3 {
       -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: var(--black-color);
+      -webkit-text-stroke-color: var(--white-color);
       -webkit-text-fill-color: transparent; } }
 
 @media (min-width: 320px) and (max-width: 510px) {
   .highlite3 {
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--black-color);
+    -webkit-text-stroke-color: var(--white-color);
     -webkit-text-fill-color: transparent; } }
 
 .line {
