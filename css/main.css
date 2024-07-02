@@ -664,12 +664,12 @@ img {
   .footer .details {
     font-size: .55em;
     left: 55vw; } }
-    .footer .details .insta, .footer .details .github, .footer .details .whatsapp {
+    .footer .details .insta, .footer .details .github, .footer .details .whatsapp .linkedin{
       font-size: 3em;
       color: var(--lite-black);
       transition: all .9s;
       width: 10%; }
-      .footer .details .insta:hover, .footer .details .github:hover, .footer .details .whatsapp:hover {
+      .footer .details .insta:hover, .footer .details .github:hover, .footer .details .whatsapp:hover .linkedin:hover {
         cursor: pointer; }
     .footer .details .insta:hover {
       color: #8d003b; }
@@ -677,6 +677,8 @@ img {
       color: white; }
     .footer .details .whatsapp:hover {
       color: #008a2e; }
+    .footer .details .linkedin:hover {
+      color: #0e76a8; }
     .footer .details ion-icon {
       position: relative;
       font-size: 1em; }
